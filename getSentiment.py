@@ -10,6 +10,7 @@ import urllib2
 from xml.dom import minidom
 import nltk
 import sys
+import re
 
 def getSentiment(text, apikey):
     """
@@ -24,13 +25,18 @@ def getSentiment(text, apikey):
     xmldoc = minidom.parse(usock)
     mood = xmldoc.getElementsByTagName('mood')[0].firstChild.nodeValue
     prob = xmldoc.getElementsByTagName('prob')[0].firstChild.nodeValue
-    print ('{0}\t{1}\t{2}'.format(text, mood, prob))
+    #print ('{0}\t{1}\t{2}'.format(text, mood, prob))
+    return text, mood, prob
 
 if __name__ == '__main__':
     ApiKey = "JnhIZpQkff7fc3AwqCB"
     data = open(sys.argv[1], 'r').read().rstrip().decode("utf-8")
     # taking care of encoding of quotes
     data = data.translate(dict.fromkeys([0x201c, 0x201d, 0x2018, 0x2019]))
-    list_text = nltk.tokenize.sent_tokenize(data)
-    for text in list_text:
-        getSentiment(text, apikey= ApiKey)
+    ls_verse = re.findall("[^0-9]+", data)
+    ls_verse = [i.strip().lower() for i in ls_verse]
+    no = 1 
+    for text in ls_verse:
+        (text, mood, prob) = getSentiment(text, apikey= ApiKey)
+        print ('{0}\t{1}\t{2}\t{3}'.format(no, text, mood, prob))
+        no += 1

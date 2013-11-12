@@ -23,7 +23,7 @@ def getPassage(scripture_inp, version='KJV'):
               "&version="+version+"\&interface=print"
         passage_raw = PyQuery(url)
         passage = passage_raw(".passage").remove("h3").find('[class^="text"]').\
-                  remove(".chapternum").remove(".versenum").\
+                  remove(".chapternum").\
                   remove(".crossrefs").remove(".footnote")
         passage = passage.text().encode("utf-8")
         return passage
@@ -51,7 +51,7 @@ def main():
     try:
         passage = getPassage(version= options.version,
                              scripture_inp = options.scripture)
-        print(passage)
+        print('1 ' + passage)
     except Exception, e:
         print e
         sys.exit(1)

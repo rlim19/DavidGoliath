@@ -1,0 +1,58 @@
+1	now the philistines gathered their armies for battle. and they were gathered at socoh, which belongs to judah, and encamped between socoh and azekah, in ephes-dammim.	negative	0.8002697518488464
+2	and saul and the men of israel were gathered, and encamped in the valley of elah, and drew up in line of battle against the philistines.	negative	0.8473354765038569
+3	and the philistines stood on the mountain on the one side, and israel stood on the mountain on the other side, with a valley between them.	negative	0.8539755885068722
+4	and there came out from the camp of the philistines a champion named goliath of gath, whose height was six  cubits  and a span.	positive	0.5722675374113255
+5	he had a helmet of bronze on his head, and he was armed with a coat of mail, and the weight of the coat was five thousand shekels  of bronze.	negative	0.8795355279029677
+6	and he had bronze armor on his legs, and a javelin of bronze slung between his shoulders.	negative	0.8963476333936097
+7	the shaft of his spear was like a weaver's beam, and his spear's head weighed six hundred shekels of iron. and his shield-bearer went before him.	negative	0.9983611751326267
+8	he stood and shouted to the ranks of israel, why have you come out to draw up for battle? am i not a philistine, and are you not servants of saul? choose a man for yourselves, and let him come down to me.	negative	0.8958514680982458
+9	if he is able to fight with me and kill me, then we will be your servants. but if i prevail against him and kill him, then you shall be our servants and serve us.	negative	0.8105763467180057
+10	and the philistine said, i defy the ranks of israel this day. give me a man, that we may fight together.	positive	0.7771508749809514
+11	when saul and all israel heard these words of the philistine, they were dismayed and greatly afraid.	negative	0.9563507926462564
+12	now david was the son of an ephrathite of bethlehem in judah, named jesse, who had eight sons. in the days of saul the man was already old and advanced in years.	negative	0.697451102436836
+13	the three oldest sons of jesse had followed saul to the battle. and the names of his three sons who went to the battle were eliab the firstborn, and next to him abinadab, and the third shammah.	negative	0.9635869322012443
+14	david was the youngest. the three eldest followed saul,	positive	0.7243288142995077
+15	but david went back and forth from saul to feed his father's sheep at bethlehem.	positive	0.6984413735278148
+16	for forty days the philistine came forward and took his stand, morning and evening.	negative	0.6842276937071068
+17	and jesse said to david his son, take for your brothers an ephah  of this parched grain, and these ten loaves, and carry them quickly to the camp to your brothers.	positive	0.538303943469162
+18	also take these ten cheeses to the commander of their thousand. see if your brothers are well, and bring some token from them.	positive	0.9904586511508395
+19	now saul and they and all the men of israel were in the valley of elah, fighting with the philistines.	negative	0.7966747900274037
+20	and david rose early in the morning and left the sheep with a keeper and took the provisions and went, as jesse had commanded him. and he came to the encampment as the host was going out to the battle line, shouting the war cry.	negative	0.9990588149408177
+21	and israel and the philistines drew up for battle, army against army.	negative	0.6297567254157896
+22	and david left the things in charge of the keeper of the baggage and ran to the ranks and went and greeted his brothers.	negative	0.5611897764571073
+23	as he talked with them, behold, the champion, the philistine of gath, goliath by name, came up out of the ranks of the philistines and spoke the same words as before. and david heard him.	positive	0.8533748475176361
+24	all the men of israel, when they saw the man, fled from him and were much afraid.	negative	0.9802067059269607
+25	and the men of israel said, have you seen this man who has come up? surely he has come up to defy israel. and the king will enrich the man who kills him with great riches and will give him his daughter and make his father's house free in israel.	negative	0.7075771753665476
+26	and david said to the men who stood by him, what shall be done for the man who kills this philistine and takes away the reproach from israel? for who is this uncircumcised philistine, that he should defy the armies of the living god?	negative	0.7720122680917832
+27	and the people answered him in the same way, so shall it be done to the man who kills him.	negative	0.7484154095711015
+28	now eliab his eldest brother heard when he spoke to the men. and eliab's anger was kindled against david, and he said, why have you come down? and with whom have you left those few sheep in the wilderness? i know your presumption and the evil of your heart, for you have come down to see the battle.	negative	0.9899512249629405
+29	and david said, what have i done now? was it not but a word?	negative	0.8124451297659913
+30	and he turned away from him toward another, and spoke in the same way, and the people answered him again as before.	negative	0.9208810985789913
+31	when the words that david spoke were heard, they repeated them before saul, and he sent for him.	negative	0.6471083415388541
+32	and david said to saul, let no man's heart fail because of him. your servant will go and fight with this philistine.	negative	0.9064695274871892
+33	and saul said to david, you are not able to go against this philistine to fight with him, for you are but a youth, and he has been a man of war from his youth.	negative	0.9782009044917594
+34	but david said to saul, your servant used to keep sheep for his father. and when there came a lion, or a bear, and took a lamb from the flock,	positive	0.875241035519914
+35	i went after him and struck him and delivered it out of his mouth. and if he arose against me, i caught him by his beard and struck him and killed him.	negative	0.9987541042029093
+36	your servant has struck down both lions and bears, and this uncircumcised philistine shall be like one of them, for he has defied the armies of the living god.	negative	0.8324939156189853
+37	and david said, the lord who delivered me from the paw of the lion and from the paw of the bear will deliver me from the hand of this philistine. and saul said to david, go, and the lord be with you!	negative	0.8815754008934188
+38	then saul clothed david with his armor. he put a helmet of bronze on his head and clothed him with a coat of mail,	negative	0.7219713941863584
+39	and david strapped his sword over his armor. and he tried in vain to go, for he had not tested them. then david said to saul, i cannot go with these, for i have not tested them. so david put them off.	negative	0.9992789030235201
+40	then he took his staff in his hand and chose five smooth stones from the brook and put them in his shepherd's pouch. his sling was in his hand, and he approached the philistine.	negative	0.5807317189833917
+41	and the philistine moved forward and came near to david, with his shield-bearer in front of him.	negative	0.6811995242033703
+42	and when the philistine looked and saw david, he disdained him, for he was but a youth, ruddy and handsome in appearance.	negative	0.5029182392030531
+43	and the philistine said to david, am i a dog, that you come to me with sticks? and the philistine cursed david by his gods.	negative	0.9013263965819708
+44	the philistine said to david, come to me, and i will give your flesh to the birds of the air and to the beasts of the field.	positive	0.8205614181638395
+45	then david said to the philistine, you come to me with a sword and with a spear and with a javelin, but i come to you in the name of the lord of hosts, the god of the armies of israel, whom you have defied.	negative	0.7452043547259296
+46	this day the lord will deliver you into my hand, and i will strike you down and cut off your head. and i will give the dead bodies of the host of the philistines this day to the birds of the air and to the wild beasts of the earth, that all the earth may know that there is a god in israel,	negative	0.9585301597718161
+47	and that all this assembly may know that the lord saves not with sword and spear. for the battle is the lord 's, and he will give you into our hand.	negative	0.9232679865429372
+48	when the philistine arose and came and drew near to meet david, david ran quickly toward the battle line to meet the philistine.	negative	0.919221774440206
+49	and david put his hand in his bag and took out a stone and slung it and struck the philistine on his forehead. the stone sank into his forehead, and he fell on his face to the ground.	negative	0.9990515647812037
+50	so david prevailed over the philistine with a sling and with a stone, and struck the philistine and killed him. there was no sword in the hand of david.	negative	0.959063014461163
+51	then david ran and stood over the philistine and took his sword and drew it out of its sheath and killed him and cut off his head with it. when the philistines saw that their champion was dead, they fled.	negative	0.9998431186180337
+52	and the men of israel and judah rose with a shout and pursued the philistines as far as gath  and the gates of ekron, so that the wounded philistines fell on the way from shaaraim as far as gath and ekron.	negative	0.9791502979273424
+53	and the people of israel came back from chasing the philistines, and they plundered their camp.	negative	0.7251766146076569
+54	and david took the head of the philistine and brought it to jerusalem, but he put his armor in his tent.	negative	0.737591241325582
+55	as soon as saul saw david go out against the philistine, he said to abner, the commander of the army, abner, whose son is this youth? and abner said, as your soul lives, o king, i do not know.	negative	0.5939678392205934
+56	and the king said, inquire whose son the boy is.	positive	0.8132138980205805
+57	and as soon as david returned from the striking down of the philistine, abner took him, and brought him before saul with the head of the philistine in his hand.	negative	0.8069270422775652
+58	and saul said to him, whose son are you, young man? and david answered, i am the son of your servant jesse the bethlehemite.	positive	0.9266784096112358
