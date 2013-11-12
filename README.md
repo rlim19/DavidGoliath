@@ -1,6 +1,6 @@
 # Analyze the story about David vs Goliath 
 
-### get the biblical verses about David and Goliath using getPassage.py (1 Sam 17)
+1. Get the biblical verses about David and Goliath using getPassage.py (1 Sam 17)
 
 ```
 Usage:          Get passage from biblegateway.com
@@ -18,6 +18,8 @@ Options:
 ```
 
 ```
+# Biblical verses from ESV, KJV, and NIV.
 ./getPassage.py -v 'ESV' -s '1 Sam 17' > data/DavidGoliath_ESV.txt
 ./getPassage.py -v 'KJV' -s '1 Sam 17' > data/DavidGoliath_KJV.txt
+./getPassage.py -v 'NIV' -s '1 Sam 17' > data/DavidGoliath_NIV.txt
 ```
