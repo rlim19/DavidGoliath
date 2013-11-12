@@ -6,7 +6,7 @@ import json
 import nltk
 import numpy
 
-N = 100  # Number of words to consider
+N = 100 # Number of words to consider
 CLUSTER_THRESHOLD = 5  # Distance between words to consider
 TOP_SENTENCES = 5  # Number of sentences to return for a "top n" summary
 
@@ -104,38 +104,6 @@ def summarize(txt):
 
 if __name__ == '__main__': 
     data = open(sys.argv[1]).read()  
-
     summary = summarize(data)
-    print 'Top N Summary'
-    N_summary = '\n'.join(summary['top_n_summary'])
-    print N_summary
-    print '------------------------'
-    print 'Mean Score Summary'
     Mean_summary = ' '.join(summary['mean_scored_summary'])
     print Mean_summary
-    print '------------------------'
-
-
-
-    #Load in output from blogs_and_nlp__get_feed.py
-
-#    BLOG_DATA = sys.argv[1]
-#    blog_data = json.loads(open(BLOG_DATA).read())
-#
-#    for post in blog_data:
-#       
-#        post.update(summarize(post['content']))
-#
-#        print post['title']
-#        print '-' * len(post['title'])
-#        print
-#        print '-------------'
-#        print 'Top N Summary'
-#        print '-------------'
-#        print ' '.join(post['top_n_summary'])
-#        print
-#        print '-------------------'
-#        print 'Mean Scored Summary'
-#        print '-------------------'
-#        print ' '.join(post['mean_scored_summary'])
-#        print

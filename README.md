@@ -23,3 +23,10 @@ Options:
 ./getPassage.py -v 'KJV' -s '1 Sam 17' > data/DavidGoliath_KJV.txt
 ./getPassage.py -v 'NIV' -s '1 Sam 17' > data/DavidGoliath_NIV.txt
 ```
+
+2. Get the summary
+```
+# use meanAverageScore and ESV bible verses
+./getSummary.py data/DavidGoliath_ESV.txt > data/DavidGoliath_summaryESV.txt
+```
+
