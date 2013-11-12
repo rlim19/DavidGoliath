@@ -31,3 +31,11 @@ Options:
 ./getSummary.py data/DavidGoliath_ESV.txt > data/DavidGoliath_summaryESV.txt
 ```
 
+3. Get the sentiment analysis
+
+```
+3. Get the sentiment analysis
+
+```
+./getSentiment.py data/DavidGoliath_summaryESV.txt > data/DavidGoliath_sentimentAnalysis_summaryESV.txt
+```
