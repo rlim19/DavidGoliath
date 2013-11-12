@@ -25,8 +25,9 @@ Options:
 ```
 
 2. Get the summary
+
 ```
-# use meanAverageScore and ESV bible verses
+# Use meanAverageScore and ESV bible verses.
 ./getSummary.py data/DavidGoliath_ESV.txt > data/DavidGoliath_summaryESV.txt
 ```
 
