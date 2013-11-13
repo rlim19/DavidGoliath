@@ -1,5 +1,0 @@
-1.now there was a man of the pharisees named nicodemus, a ruler of the jews.	negative	0.9022437788248141
-2.this man came to jesus by night and said to him, rabbi, we know that you are a teacher come from god, for no one can do these signs that you do unless god is with him.	negative	0.8314836086737676
-3.jesus answered him, truly, truly, i say to you, unless one is born again  he cannot see the kingdom of god.	negative	0.57723373926744
-4.nicodemus said to him, how can a man be born when he is old? can he enter a second time into his mother's womb and be born?	positive	0.7392477773502781
-5.jesus answered, truly, truly, i say to you, unless one is born of water and the spirit, he cannot enter the kingdom of god.	positive	0.6738461012091803
