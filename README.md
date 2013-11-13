@@ -42,11 +42,11 @@ Options:
 ```
 
   - Processed sentiment analysis 
-  ```
-  # Incorporated negative into minus probability and the opposite as well.
-  # Parsed only no or biblical verses and their probability values. 
-  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_ESV.txt > ESV_sentimentAnalysis.txt
-  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_KJV.txt > KJV_sentimentAnalysis.txt
-  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_NIV.txt > NIV_sentimentAnalysis.txt
-  ```
+```
+# Incorporated negative into minus probability and the opposite as well.
+# Parsed only no or biblical verses and their probability values. 
+awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_ESV.txt > ESV_sentimentAnalysis.txt
+awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_KJV.txt > KJV_sentimentAnalysis.txt
+awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_NIV.txt > NIV_sentimentAnalysis.txt
+```
 
