@@ -1,6 +1,6 @@
-# Analyze the story about David vs Goliath 
+# Analyzed the story about David vs Goliath 
 
-- Get the biblical verses about David and Goliath using getPassage.py (1 Sam 17)
+- Obtained the biblical verses about David and Goliath using getPassage.py (1 Sam 17)
 
 ```
 Usage:          Get passage from biblegateway.com
@@ -24,7 +24,7 @@ Options:
 ./getPassage.py -v 'NIV' -s '1 Sam 17' > data/DavidGoliath_NIV.txt
 ```
 
-- Get the summary
+- Obtained the summary
   - Summary based on the verses not sentences.
 
 ```
@@ -32,7 +32,7 @@ Options:
 ./getSummary.py data/DavidGoliath_ESV.txt > data/DavidGoliath_summaryESV.txt
 ```
 
-- Get the sentiment analysis
+- Sentiment analysis
   - Sentiment analysis per verse
 
 ```
@@ -40,3 +40,13 @@ Options:
 ./getSentiment.py data/DavidGoliath_NIV.txt > data/DavidGoliath_sentimentAnalysis_NIV.txt
 ./getSentiment.py data/DavidGoliath_KJV.txt > data/DavidGoliath_sentimentAnalysis_KJV.txt
 ```
+
+  - Processed sentiment analysis 
+  ```
+  # Incorporated negative into minus probability and the opposite as well.
+  # Parsed only no or biblical verses and their probability values. 
+  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_ESV.txt > ESV_sentimentAnalysis.txt
+  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_KJV.txt > KJV_sentimentAnalysis.txt
+  awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_NIV.txt > NIV_sentimentAnalysis.txt
+  ```
+
