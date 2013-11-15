@@ -29,7 +29,7 @@ def getSentiment(text, apikey):
     return text, mood, prob
 
 if __name__ == '__main__':
-    ApiKey = "JnhIZpQkff7fc3AwqCB"
+    ApiKey = sys.argv[2]
     data = open(sys.argv[1], 'r').read().rstrip().decode("utf-8")
     # taking care of encoding of quotes
     data = data.translate(dict.fromkeys([0x201c, 0x201d, 0x2018, 0x2019]))

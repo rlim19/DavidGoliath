@@ -50,7 +50,7 @@ NIV_sentiment <- read.delim('../data/NIV_sentimentAnalysis.txt', header=FALSE)
 @
 
 \subsection{Plot Constructed}
-<<SentimentPlot, cache=TRUE, results="asis", tidy=FALSE, message=FALSE, fig.width = 10>>=
+<<SentimentPlot, cache=TRUE, results="asis", tidy=FALSE, message=FALSE, fig.width=3, fig.height=3>>=
 # construct plot for sentiment probabilities from these three versions
 library(ggplot2)
 p <- ggplot(ESV_sentiment, aes(x=V1, y=V2))+
