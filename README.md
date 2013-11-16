@@ -36,9 +36,9 @@ Options:
   - Sentiment analysis per verse
 
 ```
-./getSentiment.py data/DavidGoliath_ESV.txt > data/DavidGoliath_sentimentAnalysis_ESV.txt
-./getSentiment.py data/DavidGoliath_NIV.txt > data/DavidGoliath_sentimentAnalysis_NIV.txt
-./getSentiment.py data/DavidGoliath_KJV.txt > data/DavidGoliath_sentimentAnalysis_KJV.txt
+./getSentiment.py data/DavidGoliath_ESV.txt [APIkey] > data/DavidGoliath_sentimentAnalysis_ESV.txt
+./getSentiment.py data/DavidGoliath_NIV.txt [APIkey] > data/DavidGoliath_sentimentAnalysis_NIV.txt
+./getSentiment.py data/DavidGoliath_KJV.txt [APIkey] > data/DavidGoliath_sentimentAnalysis_KJV.txt
 ```
 
   - Processed sentiment analysis 
