@@ -49,4 +49,13 @@ Options:
 awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_ESV.txt > ESV_sentimentAnalysis.txt
 awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_KJV.txt > KJV_sentimentAnalysis.txt
 awk -F 't' 'BEGIN { OFS="t" } {if($3=="negative") print $1"\t""-"$4; else print $1"\t"$4}' DavidGoliath_sentimentAnalysis_NIV.txt > NIV_sentimentAnalysis.txt
+
+```
+- Compute the wordFreq based on tags
+
+```
+# adverb
+./getWordFreq4Tag.py -t 'data/DavidGoliath_ESV.txt' -l 'RB' > data/adverb_ESV.txt
+# verb
+./getWordFreq4Tag.py -t 'data/DavidGoliath_ESV.txt' -l 'V' > data/verb_ESV.txt
 ```
