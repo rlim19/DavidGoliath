@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1389109348 "text.tex" "text.pdf" "text" 1389109350
+["pdflatex"] 1389111190 "text.tex" "text.pdf" "text" 1389111195
   "/Users/RickyLim/Library/texmf/tex/latex/bioinfo01/graphicx.sty" 1350769326 8119 f9c117256f23f06531632b4ea8151d14 ""
   "/Users/RickyLim/Library/texmf/tex/latex/bioinfo01/times.sty" 1350769326 693 6949716156b2ab0cbc03425ae196930f ""
   "/Users/RickyLim/Library/texmf/tex/latex/bioinfo01/url.sty" 1350769326 15350 799d85490af991832df66d91a39e77be ""
@@ -143,9 +143,9 @@
   "img/sentimentPlot.png" 1384332826 280917 368cda33132575097b56996d1944d57a ""
   "img/verb_ESV.png" 1389012157 138099 9dd3e748d1565656bf71840ef1afe9aa ""
   "newspaper.sty" 1388902399 3882 1edc21f62dcd66830d6ab90698648e75 ""
-  "text.aux" 1389109350 2647 cf77c736b23c67c6919c64bd0d25e55e ""
-  "text.out" 1389109349 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "text.tex" 1389109346 19454 fd37b53d81f59d18dce0dd559df5fa79 ""
+  "text.aux" 1389111195 2647 cf77c736b23c67c6919c64bd0d25e55e ""
+  "text.out" 1389111193 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "text.tex" 1389111175 19471 64452ac5a8e6be7f78063f264755ddbf ""
   (generated)
   "text.pdf"
   "text.out"
